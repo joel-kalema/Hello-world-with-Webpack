@@ -1,10 +1,6 @@
 # Hello-Rails
 This is a simple project just to learn how to build an only api rails app.
 
-
-A simple hello world app. This is just a work around. In order to learn more about how to build a react and rails appThis app is the backend.
-
-
 ## Built With
 
 - Ruby on Rails
@@ -31,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 # Install dependencies
 bundle install
 # Create user
-sudo -u postgres createuser -e myPassword -s
+sudo -u postgres createuser -e ced00 -s
 # Create the database
 rake db:create
 # Run database Migration
@@ -39,11 +35,13 @@ rails db:migrate
 # Run the server
 rails s
 ```
-## Authors
+
+## Author
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
 - Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
 - LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
+
 
 ## 🤝 Contributing
 
@@ -54,12 +52,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

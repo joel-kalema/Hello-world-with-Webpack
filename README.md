@@ -1,56 +1,49 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Hello-Rails
+This is a simple project just to learn how to build an only api rails app.
 
-# Project Name
 
-> Description the project.
+A simple hello world app. This is just a work around. In order to learn more about how to build a react and rails appThis app is the backend.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby on Rails
+- PostgreSQL
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://gorails.com/)
+
 ### Setup
 
-### Install
+- Make sure you have Ruby on Rails set up properly on your computer
+- Clone or download this repo on your machine
+- Enter project directory
 
-### Usage
+### Development Database
 
-### Run tests
-
-### Deployment
-
-
-
+```sh
+# Install dependencies
+bundle install
+# Create user
+sudo -u postgres createuser -e myPassword -s
+# Create the database
+rake db:create
+# Run database Migration
+rails db:migrate
+# Run the server
+rails s
+```
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@joel-kalema](https://github.com/joel-kalema)
+- Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
+- LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
 
 ## 🤝 Contributing
 
